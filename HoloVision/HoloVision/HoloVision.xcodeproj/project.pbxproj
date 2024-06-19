@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0F11D02C21C7060043A6DE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1F0F11CF2C21C7060043A6DE /* RealityKitContent */; };
+		1F0F11D22C21C7060043A6DE /* HoloVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F11D12C21C7060043A6DE /* HoloVisionApp.swift */; };
+		1F0F11D42C21C7060043A6DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F11D32C21C7060043A6DE /* ContentView.swift */; };
+		1F0F11D62C21C7060043A6DE /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F11D52C21C7060043A6DE /* ImmersiveView.swift */; };
+		1F0F11D82C21C7070043A6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F11D72C21C7070043A6DE /* Assets.xcassets */; };
+		1F0F11DB2C21C7070043A6DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F11DA2C21C7070043A6DE /* Preview Assets.xcassets */; };
+		1F0F11E62C21C7070043A6DE /* HoloVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F11E52C21C7070043A6DE /* HoloVisionTests.swift */; };
+		1F0F11F02C21D13F0043A6DE /* M91_rifle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F11EF2C21D13F0043A6DE /* M91_rifle.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0F11E22C21C7070043A6DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0F11C22C21C7050043A6DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0F11C92C21C7050043A6DE;
+			remoteInfo = HoloVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0F11CA2C21C7050043A6DE /* HoloVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoloVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0F11CE2C21C7060043A6DE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1F0F11D12C21C7060043A6DE /* HoloVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoloVisionApp.swift; sourceTree = "<group>"; };
+		1F0F11D32C21C7060043A6DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F0F11D52C21C7060043A6DE /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		1F0F11D72C21C7070043A6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0F11DA2C21C7070043A6DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F0F11DC2C21C7070043A6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0F11E12C21C7070043A6DE /* HoloVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoloVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0F11E52C21C7070043A6DE /* HoloVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoloVisionTests.swift; sourceTree = "<group>"; };
+		1F0F11EF2C21D13F0043A6DE /* M91_rifle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = M91_rifle.usdz; path = ../../../../../Downloads/usdz/M91_rifle.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0F11C72C21C7050043A6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0F11D02C21C7060043A6DE /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0F11DE2C21C7070043A6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0F11C12C21C7050043A6DE = {
+			isa = PBXGroup;
+			children = (
+				1F0F11CC2C21C7050043A6DE /* HoloVision */,
+				1F0F11CD2C21C7060043A6DE /* Packages */,
+				1F0F11E42C21C7070043A6DE /* HoloVisionTests */,
+				1F0F11CB2C21C7050043A6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0F11CB2C21C7050043A6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F11CA2C21C7050043A6DE /* HoloVision.app */,
+				1F0F11E12C21C7070043A6DE /* HoloVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0F11CC2C21C7050043A6DE /* HoloVision */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F11EF2C21D13F0043A6DE /* M91_rifle.usdz */,
+				1F0F11D12C21C7060043A6DE /* HoloVisionApp.swift */,
+				1F0F11D32C21C7060043A6DE /* ContentView.swift */,
+				1F0F11D52C21C7060043A6DE /* ImmersiveView.swift */,
+				1F0F11D72C21C7070043A6DE /* Assets.xcassets */,
+				1F0F11DC2C21C7070043A6DE /* Info.plist */,
+				1F0F11D92C21C7070043A6DE /* Preview Content */,
+			);
+			path = HoloVision;
+			sourceTree = "<group>";
+		};
+		1F0F11CD2C21C7060043A6DE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F11CE2C21C7060043A6DE /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1F0F11D92C21C7070043A6DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F11DA2C21C7070043A6DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F0F11E42C21C7070043A6DE /* HoloVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0F11E52C21C7070043A6DE /* HoloVisionTests.swift */,
+			);
+			path = HoloVisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0F11C92C21C7050043A6DE /* HoloVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0F11E92C21C7070043A6DE /* Build configuration list for PBXNativeTarget "HoloVision" */;
+			buildPhases = (
+				1F0F11C62C21C7050043A6DE /* Sources */,
+				1F0F11C72C21C7050043A6DE /* Frameworks */,
+				1F0F11C82C21C7050043A6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoloVision;
+			packageProductDependencies = (
+				1F0F11CF2C21C7060043A6DE /* RealityKitContent */,
+			);
+			productName = HoloVision;
+			productReference = 1F0F11CA2C21C7050043A6DE /* HoloVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0F11E02C21C7070043A6DE /* HoloVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0F11EC2C21C7070043A6DE /* Build configuration list for PBXNativeTarget "HoloVisionTests" */;
+			buildPhases = (
+				1F0F11DD2C21C7070043A6DE /* Sources */,
+				1F0F11DE2C21C7070043A6DE /* Frameworks */,
+				1F0F11DF2C21C7070043A6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0F11E32C21C7070043A6DE /* PBXTargetDependency */,
+			);
+			name = HoloVisionTests;
+			productName = HoloVisionTests;
+			productReference = 1F0F11E12C21C7070043A6DE /* HoloVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0F11C22C21C7050043A6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1F0F11C92C21C7050043A6DE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1F0F11E02C21C7070043A6DE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1F0F11C92C21C7050043A6DE;
+					};
+				};
+			};
+			buildConfigurationList = 1F0F11C52C21C7050043A6DE /* Build configuration list for PBXProject "HoloVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0F11C12C21C7050043A6DE;
+			productRefGroup = 1F0F11CB2C21C7050043A6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0F11C92C21C7050043A6DE /* HoloVision */,
+				1F0F11E02C21C7070043A6DE /* HoloVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0F11C82C21C7050043A6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0F11DB2C21C7070043A6DE /* Preview Assets.xcassets in Resources */,
+				1F0F11D82C21C7070043A6DE /* Assets.xcassets in Resources */,
+				1F0F11F02C21D13F0043A6DE /* M91_rifle.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0F11DF2C21C7070043A6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0F11C62C21C7050043A6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0F11D42C21C7060043A6DE /* ContentView.swift in Sources */,
+				1F0F11D22C21C7060043A6DE /* HoloVisionApp.swift in Sources */,
+				1F0F11D62C21C7060043A6DE /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0F11DD2C21C7070043A6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0F11E62C21C7070043A6DE /* HoloVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0F11E32C21C7070043A6DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0F11C92C21C7050043A6DE /* HoloVision */;
+			targetProxy = 1F0F11E22C21C7070043A6DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F0F11E72C21C7070043A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		1F0F11E82C21C7070043A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		1F0F11EA2C21C7070043A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoloVision/Preview Content\"";
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.HoloVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1F0F11EB2C21C7070043A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoloVision/Preview Content\"";
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.HoloVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		1F0F11ED2C21C7070043A6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.HoloVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoloVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoloVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		1F0F11EE2C21C7070043A6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.HoloVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoloVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HoloVision";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0F11C52C21C7050043A6DE /* Build configuration list for PBXProject "HoloVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0F11E72C21C7070043A6DE /* Debug */,
+				1F0F11E82C21C7070043A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0F11E92C21C7070043A6DE /* Build configuration list for PBXNativeTarget "HoloVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0F11EA2C21C7070043A6DE /* Debug */,
+				1F0F11EB2C21C7070043A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0F11EC2C21C7070043A6DE /* Build configuration list for PBXNativeTarget "HoloVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0F11ED2C21C7070043A6DE /* Debug */,
+				1F0F11EE2C21C7070043A6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F0F11CF2C21C7060043A6DE /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1F0F11C22C21C7050043A6DE /* Project object */;
+}
