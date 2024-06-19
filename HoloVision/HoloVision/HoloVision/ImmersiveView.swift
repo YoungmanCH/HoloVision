@@ -19,7 +19,6 @@ struct ImmersiveView: View {
                 mode: .static
             )
 
-
             content.add(floor)
             
             if let rifleModel = try? await Entity(named: "M91_rifle"),
@@ -28,8 +27,16 @@ struct ImmersiveView: View {
                 rifle.position.y = 0.5
                 rifle.position.z = -1
                 
-                rifle.generateCollisionShapes(recursive: false)
-                rifle.components.set(InputTargetComponent())
+                rifle.generateCollisionShapes(recursive: true)
+                let collisionShape = ShapeResource.generateSphere(radius: 0.1)
+                
+                // 落下させるなら、generateBoxを使うと良い。なんかよくわかりません。かなり調べる必要があると思う。
+//                let collisionShapeOfSize = ShapeResource.generateBox(size: [0.01, 0.11, 0.01])])
+                
+                rifle.components.set([
+                    CollisionComponent(shapes: [collisionShape]),
+                    InputTargetComponent()
+                ])
                 
                 rifle.components[PhysicsBodyComponent.self] = .init(PhysicsBodyComponent(
                     massProperties: .default,
@@ -38,14 +45,14 @@ struct ImmersiveView: View {
                 ))
                 
                 rifle.components[PhysicsMotionComponent.self] = .init()
-                
+                                
                 content.add(rifle)
             }
         }
-        .gesture(dragDesture)
+        .gesture(dragGesture)
     }
 
-    var dragDesture: some Gesture {
+    var dragGesture: some Gesture {
         DragGesture()
             .targetedToAnyEntity()
             .onChanged { value in
@@ -60,5 +67,4 @@ struct ImmersiveView: View {
 
 #Preview(immersionStyle: .mixed) {
     ImmersiveView()
-    // .previewLayout(.sizeThatFits)
 }

@@ -16,9 +16,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("🔫")
+                .foregroundStyle(.yellow)
                 .font(.custom("Menlo", size: 100))
                 .bold()
-                .foregroundStyle(.yellow)
         }
         .padding()
         .task {
