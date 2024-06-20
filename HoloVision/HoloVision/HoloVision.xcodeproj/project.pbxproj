@@ -15,6 +15,7 @@
 		1F0F11DB2C21C7070043A6DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F11DA2C21C7070043A6DE /* Preview Assets.xcassets */; };
 		1F0F11E62C21C7070043A6DE /* HoloVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F11E52C21C7070043A6DE /* HoloVisionTests.swift */; };
 		1F0F11F02C21D13F0043A6DE /* M91_rifle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F11EF2C21D13F0043A6DE /* M91_rifle.usdz */; };
+		1F7EA4762C23AB61006A3072 /* whiteStudio.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 1F7EA4752C23AB61006A3072 /* whiteStudio.skybox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		1F0F11E12C21C7070043A6DE /* HoloVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoloVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0F11E52C21C7070043A6DE /* HoloVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoloVisionTests.swift; sourceTree = "<group>"; };
 		1F0F11EF2C21D13F0043A6DE /* M91_rifle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = M91_rifle.usdz; path = ../../../../../Downloads/usdz/M91_rifle.usdz; sourceTree = "<group>"; };
+		1F7EA4752C23AB61006A3072 /* whiteStudio.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = whiteStudio.skybox; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		1F0F11CC2C21C7050043A6DE /* HoloVision */ = {
 			isa = PBXGroup;
 			children = (
+				1F7EA4752C23AB61006A3072 /* whiteStudio.skybox */,
 				1F0F11EF2C21D13F0043A6DE /* M91_rifle.usdz */,
 				1F0F11D12C21C7060043A6DE /* HoloVisionApp.swift */,
 				1F0F11D32C21C7060043A6DE /* ContentView.swift */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0F11DB2C21C7070043A6DE /* Preview Assets.xcassets in Resources */,
+				1F7EA4762C23AB61006A3072 /* whiteStudio.skybox in Resources */,
 				1F0F11D82C21C7070043A6DE /* Assets.xcassets in Resources */,
 				1F0F11F02C21D13F0043A6DE /* M91_rifle.usdz in Resources */,
 			);
