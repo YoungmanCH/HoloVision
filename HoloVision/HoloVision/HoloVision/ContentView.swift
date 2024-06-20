@@ -12,10 +12,12 @@ import RealityKitContent
 struct ContentView: View {
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    
+    var rifleData: RifleData
 
     var body: some View {
         VStack {
-            Text("🔫")
+            Text(rifleData.rolledNumber == 0 ? "🔫" : "\(rifleData.rolledNumber)")
                 .foregroundStyle(.yellow)
                 .font(.custom("Menlo", size: 100))
                 .bold()
@@ -28,7 +30,7 @@ struct ContentView: View {
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    ContentView(rifleData: RifleData())
 }
 
 
